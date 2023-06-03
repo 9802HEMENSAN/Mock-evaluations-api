@@ -1,104 +1,97 @@
 {
-    "users": [
-      
-    ], 
-    "appointments" : [
-            {
-              "id" : 1,
-              "name": "Jane Doe",
-              "image": "https://example.com/doctor-image.jpg",
-              "specialization": "Dermatologist",
-              "experience": 10,
-              "location": "Los Angeles",
-              "date": "2023-04-05T12:00:00.000Z",
-                "slots": 2,
-              "fee": 150
-            },
-            {
-              "id" : 2,
-              "name": "Mark Johnson",
-              "image": "https://example.com/doctor-image.jpg",
-              "specialization": "Pediatrician",
-              "experience": 5,
-              "location": "Chicago",
-              "date": "2023-04-06T09:30:00.000Z",
-                "slots": 1,
-              "fee": 100
-            }
-        ],
-    "freelancers": [
-          {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john@example.com",
-            "password": "password",
-            "profession": "Web Developer",
-            "skills": [
-              "HTML",
-              "CSS",
-              "JavaScript"
-            ],
-            "hourly_rate": 25,
-            "profile_picture": "https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "isBooked": false
-          },
-          {
-            "id": 2,
-            "name": "Jane Smith",
-            "email": "jane@example.com",
-            "password": "password",
-            "profession": "Graphic Designer",
-            "skills": [
-              "Photoshop",
-              "Illustrator"
-            ],
-            "hourly_rate": 30,
-            "profile_picture": "https://images.pexels.com/photos/1308885/pexels-photo-1308885.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "isBooked": true
-          },
-          {
-            "name": "Hemensan Mahilange",
-            "image": "https://avatars.githubusercontent.com/u/111531676?s=40&v=4",
-            "email": "hmahilange9802@gmail.com",
-            "password": "1234",
-            "hourly_rate": "500",
-            "profession": "Web Developer",
-            "skills": [
-              "HTML",
-              "CSS",
-              "JS"
-            ],
-            "id": 3
-          },
-          {
-            "name": "Sneha",
-            "email": "snaha@gmail.com",
-            "password": "1234",
-            "profession": "Graphic Designer",
-            "hourly_rate": "400",
-            "skills": [
-              "DSA",
-              "Graphics",
-              "Photoshop"
-            ],
-            "profile_picture": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "isBooked": false,
-            "id": 4
-          },
-          {
-            "name": "Nisha",
-            "email": "nisha@gmail.com",
-            "password": "4321",
-            "profession": "Web Developer",
-            "hourly_rate": "500",
-            "skills": [
-              "HTML",
-              "CSS",
-              "JS"
-            ],
-            "profile_picture": "https://images.pexels.com/photos/1391499/pexels-photo-1391499.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "isBooked": false,
-            "id": 5
-          }
-        ]
-  }
+  "users": [
+    {
+      "username": "Hemensan",
+      "email": "hemensanmahilange@gmail.com",
+      "password": "1234",
+      "image": "https://avatars.githubusercontent.com/u/111531676?v=4",
+      "id": 1
+    },
+    {
+      "username": "ayush",
+      "email": "ayush@gmail.com",
+      "password": "123",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+      "id": 2
+    },
+    {
+      "username": "Harsh",
+      "email": "harsh@gmail.com",
+      "password": "1234",
+      "image": "https://avatars.githubusercontent.com/u/111531676?v=4",
+      "id": 3
+    },
+    {
+      "username": "Roshan",
+      "email": "roshan@gmail.com",
+      "password": "1234",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+      "id": 4
+    },
+    {
+      "username": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "rahul",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+      "id": 5
+    },
+    {
+      "username": "ram",
+      "email": "ram@gmail.com",
+      "password": "ram",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+      "id": 6
+    },
+    {
+      "username": "rohan",
+      "email": "rohan@gmail.com",
+      "password": "rohan",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+      "id": 7
+    }
+  ],
+  "forum": [
+    {
+      "question": {
+        "userAvatar": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+        "username": "rohan",
+        "questionTitle": "What is Java ?",
+        "questionDescription": "Java",
+        "language": "JavaScript",
+        "upvotes": 0,
+        "answers": 0,
+        "postedDate": "Sat Jun 03 2023"
+      },
+      "answers": [],
+      "id": 1
+    },
+    {
+      "question": {
+        "userAvatar": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+        "username": "rohan",
+        "questionTitle": "What is Java ?",
+        "questionDescription": "Java is a good language",
+        "language": "Java",
+        "upvotes": 0,
+        "answers": 0,
+        "postedDate": "Sat Jun 03 2023"
+      },
+      "answers": [],
+      "id": 2
+    },
+    {
+      "question": {
+        "userAvatar": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676290080_5322405.jpg?format=webp&w=300&dpr=1.3",
+        "username": "rohan",
+        "questionTitle": "What is C++ ? ",
+        "questionDescription": "Java is a good language",
+        "language": "C++",
+        "upvotes": 0,
+        "answers": 0,
+        "postedDate": "Sat Jun 03 2023"
+      },
+      "answers": [],
+      "id": 3
+    }
+  ]
+}
