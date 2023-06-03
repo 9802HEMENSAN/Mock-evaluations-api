@@ -58,7 +58,7 @@
         "questionTitle": "What is Java ?",
         "questionDescription": "Java",
         "language": "JavaScript",
-        "upvotes": 0,
+        "upvotes": 7,
         "answers": 0,
         "postedDate": "Sat Jun 03 2023"
       },
@@ -72,7 +72,7 @@
         "questionTitle": "What is Java ?",
         "questionDescription": "Java is a good language",
         "language": "Java",
-        "upvotes": 0,
+        "upvotes": 5,
         "answers": 0,
         "postedDate": "Sat Jun 03 2023"
       },
@@ -86,7 +86,7 @@
         "questionTitle": "What is C++ ? ",
         "questionDescription": "Java is a good language",
         "language": "C++",
-        "upvotes": 0,
+        "upvotes": 10,
         "answers": 0,
         "postedDate": "Sat Jun 03 2023"
       },
