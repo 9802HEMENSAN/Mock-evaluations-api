@@ -93,5 +93,71 @@
       "answers": [],
       "id": 3
     }
+  ],"users_list": [
+    {
+      "username": "Hemensan",
+      "email": "hemensanmahilange@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "password": "ayush",
+      "id": 2
+    },
+    {
+      "username": "soya",
+      "email": "soya@gmail.com",
+      "password": "soya",
+      "id": 3
+    }
+  ],
+  "user_details": [
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "type": "income",
+      "category": "Salary",
+      "amount": 40000,
+      "date": "2023-06-14",
+      "id": 1
+    },
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "type": "expense",
+      "category": "Shopping",
+      "amount": 3400,
+      "date": "2023-06-13",
+      "id": 2
+    },
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "type": "income",
+      "category": "Gifts",
+      "amount": 2000,
+      "date": "2023-06-05",
+      "id": 3
+    },
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "type": "expense",
+      "category": "Bills",
+      "amount": 200,
+      "date": "2023-06-08",
+      "id": 4
+    },
+    {
+      "username": "ayush Mahilange",
+      "email": "ayush@gmail.com",
+      "type": "expense",
+      "category": "Vehicle & Transport",
+      "amount": 4000,
+      "date": "2023-06-19",
+      "id": 5
+    }
   ]
 }
